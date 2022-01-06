@@ -1,25 +1,25 @@
-Group hierarchy;Region;Description;Service;Upfront;Monthly;First 12 months total;Currency;Configuration summary;;;;;;;
-My Estimate;US East (Ohio);Amazon Aurora MySQL-Compatible;0;2285.44;27425.28;USD;"""Change records per statement (0.38)"; Nodes (12); Instance Type (db.t4g.large); Instance Family (General purpose); Pricing Model (OnDemand);" Storage amount (4 TB)""";;;
-My Estimate;US East (Ohio);Amazon EC2;0;9164.52;109974.24;USD;"""Operating system (Linux)"; Quantity (12); Pricing strategy (On-Demand Instances); Storage amount (30 GB); Instance type (m5n.4xlarge);" Provisioning IOPS io1 (1000)""";;;
-My Estimate;US East (Ohio);Amazon Virtual Private Cloud (VPC);0;2693.7;32324.40;USD;Number of NAT Gateways (2);;;;;;;;
-My Estimate;US East (Ohio);Amazon CloudFront;0;1592.2;19106.40;USD;"""Data transfer out to internet (15 TB per month)"; Data transfer out to origin (15 TB per month);" Number of requests (HTTPS) (5000000 per month)""";;;;;;
-My Estimate;US East (Ohio);Amazon CloudWatch;0;250.19;3002.28;USD;"""Number of Metrics (includes detailed and custom metrics) (100)"; Number of Lambda functions (50); Number of requests per function (1000 per hour); Number of Dashboards (10); Standard Logs: Data Ingested (5 GB); Logs Delivered to CloudWatch Logs: Data Ingested (5 GB); GetMetricData: Number of metrics requested (500000); GetMetricWidgetImage: Number of metrics requested ();" Number of other API requests (5000000)"""
-My Estimate;US East (Ohio);S3 Standard;0;2304;27648.00;USD;S3 Standard storage (100 TB per month);;;;;;;;
-My Estimate;US East (Ohio);Data Transfer;0;0;0.00;USD;;;;;;;;;
-My Estimate;US East (Ohio);Amazon Route 53;0;1417.5;17010.00;USD;"""Hosted Zones (2)";" Number of Elastic Network Interfaces (10)""";;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-Acknowledgement;;;;;;;;;;;;;;;
-"""* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors";" including your actual usage of AWS services.""";;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-Total Monthly: 19,707.55 USD;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;
-Added Cloud Watch;;;;;;;;;;;;;;;
-Changed instance types to m5n.4xlarge;;;;;;;;;;;;;;;
-Use IOPS SSDs for faster storage troughput;;;;;;;;;;;;;;;
-Added second host zone to Route 53;;;;;;;;;;;;;;;
-Increased Number of Elastic Network Interfaces from 5 to 10 in Route 53;;;;;;;;;;;;;;;
-Increased Database Nodes from 6 to 12;;;;;;;;;;;;;;;
-Added second NAT Gateway;;;;;;;;;;;;;;;
+Group hierarchy	Region	Description	Upfront	Monthly	First 12 months total	Currency	Configuration summary								
+My Estimate	US East (N. Virginia)	Amazon Aurora MySQL-Compatible	0	2285.44	27425.28	USD	"""Change records per statement (0.38)"	 Nodes (12)	 Instance Type (db.t4g.large)	 Instance Family (General purpose)	 Pricing Model (OnDemand)	" Storage amount (4 TB)"""			
+My Estimate	US East (N. Virginia)	Amazon EC2	0	9164.52	109974.24	USD	"""Operating system (Linux)"	 Quantity (12)	 Pricing strategy (On-Demand Instances)	 Storage amount (30 GB)	 Instance type (m5n.4xlarge)	" Provisioning IOPS io1 (1000)"""			
+My Estimate	US East (N. Virginia)	Amazon Virtual Private Cloud (VPC)	0	2693.7	32324.40	USD	Number of NAT Gateways (2)								
+My Estimate	US East (N. Virginia)	Amazon CloudFront	0	1592.2	19106.40	USD	"""Data transfer out to internet (15 TB per month)"	 Data transfer out to origin (15 TB per month)	" Number of requests (HTTPS) (5000000 per month)"""						
+My Estimate	US East (N. Virginia)	Amazon CloudWatch	0	250.19	3002.28	USD	"""Number of Metrics (includes detailed and custom metrics) (100)"	 Number of Lambda functions (50)	 Number of requests per function (1000 per hour)	 Number of Dashboards (10)	 Standard Logs: Data Ingested (5 GB)	 Logs Delivered to CloudWatch Logs: Data Ingested (5 GB)	 GetMetricData: Number of metrics requested (500000)	 GetMetricWidgetImage: Number of metrics requested ()	" Number of other API requests (5000000)"""
+My Estimate	US East (N. Virginia)	S3 Standard	0	2304	27648.00	USD	S3 Standard storage (100 TB per month)								
+My Estimate	US East (N. Virginia)	Data Transfer	0	0	0.00	USD									
+My Estimate	US East (N. Virginia)	Amazon Route 53	0	1417.5	17010.00	USD	"""Hosted Zones (2)"	" Number of Elastic Network Interfaces (10)"""							
+My Estimate	US East (N. Virginia)	Application Load Balancer	0	600.43	7205.16	USD	Number of Application Load Balancers (1)								
+															
+															
+Acknowledgement															
+"""* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors"	" including your actual usage of AWS services."""														
+															
+Total Monthly: 19,707.55 USD															
+															
+															
+Added Cloud Watch															
+Changed instance types to m5n.4xlarge															
+Use IOPS SSDs for faster storage troughput															
+Added second host zone to Route 53															
+Increased Number of Elastic Network Interfaces from 5 to 10 in Route 53															
+Increased Database Nodes from 6 to 12															
+Added second NAT Gateway															
